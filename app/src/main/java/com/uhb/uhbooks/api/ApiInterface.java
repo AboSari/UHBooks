@@ -12,8 +12,8 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 public interface ApiInterface {
-    String BASE_URL = "http://10.59.100.166:5000/";
-//    String BASE_URL = "https://uhbooks.herokuapp.com/";
+//    String BASE_URL = "http://10.59.100.166:5000/";
+    String BASE_URL = "https://uhbooks.herokuapp.com/";
     String AUTH_HEADER = "x-access-token";
 
 
