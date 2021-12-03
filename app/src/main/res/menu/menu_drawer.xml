@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_student"
+            android:icon="@drawable/ic_student"
+            android:title="@string/action_student" />
+
+        <item
+            android:id="@+id/action_instructor"
+            android:icon="@drawable/ic_instructor"
+            android:title="@string/action_instructor" />
+
+<!--        <item-->
+<!--            android:id="@+id/action_favorite"-->
+<!--            android:icon="@drawable/ic_baseline_favorite_24"-->
+<!--            android:title="@string/action_favorite" />-->
+    </group>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/action_login"
+                android:icon="@drawable/baseline_login_black_24dp"
+                android:title="@string/action_login"
+                android:visible="true" />
+            <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/baseline_logout_black_24dp"
+                android:title="@string/action_logout"
+                android:visible="false" />
+        </menu>
+    </item>
+
+
+</menu>
